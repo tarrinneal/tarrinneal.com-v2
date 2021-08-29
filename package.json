@@ -1,0 +1,22 @@
+{
+  "name": "tarrinneal.com-v2",
+  "version": "1.0.0",
+  "description": "Personal website v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarrinneal/tarrinneal.com-v2.git"
+  },
+  "author": "Tarrin Neal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarrinneal/tarrinneal.com-v2/issues"
+  },
+  "homepage": "https://github.com/tarrinneal/tarrinneal.com-v2#readme",
+  "dependencies": {
+    "lit": "^2.0.0-rc.3"
+  }
+}
