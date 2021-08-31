@@ -4,9 +4,7 @@ import {
   LitElement,
 } from 'https://cdn.skypack.dev/pin/lit@v2.0.0-rc.2-TSkkpP2AxiJKOJvPcy1M/mode=imports,min/optimized/lit.js';
 
-import './app-header.js';
-
-export class AppMain extends LitElement {
+export class AppHeader extends LitElement {
   static get styles() {
     return css`
       p {
@@ -27,8 +25,8 @@ export class AppMain extends LitElement {
   }
 
   render() {
-    return html` <app-header></app-header> `;
+    return html`<p>Hello, ${this.name}!</p>`;
   }
 }
 
-customElements.define('app-main', AppMain);
+customElements.define('app-header', AppHeader);
