@@ -5,6 +5,7 @@ import {
 } from 'https://cdn.skypack.dev/pin/lit@v2.0.0-rc.2-TSkkpP2AxiJKOJvPcy1M/mode=imports,min/optimized/lit.js';
 
 import './app-header.js';
+import './app-about-me.js';
 
 export class AppMain extends LitElement {
   static get styles() {
@@ -27,7 +28,10 @@ export class AppMain extends LitElement {
   }
 
   render() {
-    return html` <app-header></app-header> `;
+    return html`
+      <app-header></app-header>
+      <app-about-me></app-about-me>
+    `;
   }
 }
 
