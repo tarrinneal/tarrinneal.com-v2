@@ -6,6 +6,7 @@ import {
 
 import './app-header.js';
 import './app-about-me.js';
+import './app-skills.js';
 
 export class AppMain extends LitElement {
   static get styles() {
@@ -31,6 +32,7 @@ export class AppMain extends LitElement {
     return html`
       <app-header></app-header>
       <app-about-me></app-about-me>
+      <app-skills></app-skills>
     `;
   }
 }
