@@ -10,7 +10,7 @@ export class AppMain extends LitElement {
   static get styles() {
     return css`
       p {
-        color: blue;
+        color: inherit;
       }
     `;
   }
