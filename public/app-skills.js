@@ -16,6 +16,13 @@ export class AppSkills extends LitElement {
   render() {
     return html`
       <h2 class="skills title">Skills</h1>
+      <p class="skills content">
+        Front End - JavaScript | React | Flutter | Dart | jQuery | Axios | HTML | CSS | Webpack | Babel
+        <br />
+        Back End - Node/Express | GraphQL | Dgraph | MongoDB | MySQL | Cassandra | Redis | NGINX
+        <br />
+        Tools - Git | GitHub | REST | CRUD | AWS | Heroku | Jest | Enzyme | Altair | Postman
+      </p>
     `;
   }
 }
