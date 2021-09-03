@@ -15,7 +15,7 @@ export class AppAboutMe extends LitElement {
 
   render() {
     return html`
-      <h2 class="about-me title">About Me</h2>
+      <h2 id="about-me" class="about-me title">About Me</h2>
       <p class="about-me main">
         I am a software developer with a passion for creating and problem
         solving. I am currently looking for a position in the software

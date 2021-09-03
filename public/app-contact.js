@@ -15,7 +15,7 @@ export class AppContact extends LitElement {
 
   render() {
     return html`
-      <h2 class="contact title">Contact</h1>
+      <h2 id="contact" class="contact title">Contact</h1>
       <p class="contact content">
         Phone: <a href="tel:+1-360-624-2170">(360) 624-2170</a>
         <br />

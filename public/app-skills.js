@@ -15,7 +15,7 @@ export class AppSkills extends LitElement {
 
   render() {
     return html`
-      <h2 class="skills title">Skills</h1>
+      <h2 id="skills" class="skills title">Skills</h1>
       <p class="skills content">
         Front End - JavaScript | React | Flutter | Dart | jQuery | Axios | HTML | CSS | Webpack | Babel
         <br />

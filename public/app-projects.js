@@ -15,7 +15,7 @@ export class AppProjects extends LitElement {
 
   render() {
     return html`
-      <h2 class="projects title">Projects</h1>
+      <h2 id="projects" class="projects title">Projects</h1>
       <p class="projects content">
         Listf.in - Lead Architect and Engineer
         <br/>

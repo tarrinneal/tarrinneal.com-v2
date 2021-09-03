@@ -46,10 +46,10 @@ export class AppHeader extends LitElement {
       <h1 class="header name">Tarrin Neal</h1>
       <h3 class="header title">Full Stack Web Developer</h3>
       <div class="header button-container">
-        <h4 class="header about-me">About Me</h4>
-        <h4 class="header skills">Skills</h4>
-        <h4 class="header projects">Projects</h4>
-        <h4 class="header contact">Contact</h4>
+        <a href="#about-me"><h4 class="header about-me">About Me</h4></a>
+        <a href="#skills"><h4 class="header skills">Skills</h4></a>
+        <a href="#projects"><h4 class="header projects">Projects</h4></a>
+        <a href="#contact"><h4 class="header contact">Contact</h4></a>
       </div>
     `;
   }
