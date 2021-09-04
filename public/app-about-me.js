@@ -4,9 +4,11 @@ import {
   LitElement,
 } from 'https://cdn.skypack.dev/pin/lit@v2.0.0-rc.2-TSkkpP2AxiJKOJvPcy1M/mode=imports,min/optimized/lit.js';
 
+import { containerStyles } from './container-styles.js';
+
 export class AppAboutMe extends LitElement {
   static get styles() {
-    return css``;
+    return [containerStyles, css``];
   }
 
   constructor() {
@@ -15,12 +17,14 @@ export class AppAboutMe extends LitElement {
 
   render() {
     return html`
-      <h2 id="about-me" class="about-me title">About Me</h2>
-      <p class="about-me main">
-        I am a software developer with a passion for creating and problem
-        solving. I am currently looking for a position in the software
-        development field.
-      </p>
+      <div class="container">
+        <h2 id="about-me" class="about-me title">About Me</h2>
+        <p class="about-me main">
+          I am a software developer with a passion for creating and problem
+          solving. I am currently looking for a position in the software
+          development field.
+        </p>
+      </div>
     `;
   }
 }

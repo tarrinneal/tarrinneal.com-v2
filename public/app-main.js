@@ -16,6 +16,10 @@ export class AppMain extends LitElement {
       p {
         color: inherit;
       }
+      .container {
+        border: 1px solid black;
+        padding: 10px;
+      }
     `;
   }
 
@@ -42,3 +46,7 @@ export class AppMain extends LitElement {
 }
 
 customElements.define('app-main', AppMain);
+
+export const styles = {
+  container: css``,
+};

@@ -4,9 +4,11 @@ import {
   LitElement,
 } from 'https://cdn.skypack.dev/pin/lit@v2.0.0-rc.2-TSkkpP2AxiJKOJvPcy1M/mode=imports,min/optimized/lit.js';
 
+import { containerStyles } from './container-styles.js';
+
 export class AppProjects extends LitElement {
   static get styles() {
-    return css``;
+    return [containerStyles, css``];
   }
 
   constructor() {
@@ -15,6 +17,7 @@ export class AppProjects extends LitElement {
 
   render() {
     return html`
+    <div class="container">
       <h2 id="projects" class="projects title">Projects</h1>
       <p class="projects content">
         Listf.in - Lead Architect and Engineer
@@ -57,7 +60,7 @@ export class AppProjects extends LitElement {
         ● Increased throughput by 500% by horizontally scaling API using an NGINX load balancer and
         multiple Express servers
       </p>
-
+    </div>
 
     `;
   }
