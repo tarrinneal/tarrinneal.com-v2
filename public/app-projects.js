@@ -45,7 +45,7 @@ export class AppProjects extends LitElement {
         emotion/sentiment analysis via IBM’s Watson and WebEmpath APIs
         <br/>
         <br/>
-        <a href="https://fec-hopper.herokuapp.com /" target="_blank">HOPR</a> - Front-End Engineer | <a href="https://github.com/tarrinneal/hopper" target="_blank">GitHub</a>
+        <a href="https://fec-hopper.herokuapp.com/" target="_blank">HOPR</a> - Front-End Engineer | <a href="https://github.com/tarrinneal/hopper" target="_blank">GitHub</a>
         <br/>
         Complete modern redesign of a client-facing retail web-portal utilizing legacy API<br/>
         ● Created custom image carousel using React and CSS3 to allow for responsive product navigation<br/>
