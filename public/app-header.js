@@ -26,6 +26,12 @@ export class AppHeader extends LitElement {
         min-width: 30%;
         max-width: 50%;
       }
+      .under-con {
+        display: inline-block;
+        position: absolute;
+        transform: translate(0, -50px);
+        z-index: -1;
+      }
       .about-me {
       }
       .skills {
@@ -45,6 +51,12 @@ export class AppHeader extends LitElement {
     return html`
       <h1 class="header name">Tarrin Neal</h1>
       <h3 class="header title">Full Stack Web Developer</h3>
+      <img
+        src="assets/website-under-construction-bigalbaloo-stock.jpg"
+        alt="Under Construction"
+        width="200"
+        class="under-con"
+      />
       <div class="header button-container">
         <a href="#about-me"><h4 class="header about-me">About Me</h4></a>
         <a href="#skills"><h4 class="header skills">Skills</h4></a>
