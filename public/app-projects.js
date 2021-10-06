@@ -20,7 +20,7 @@ export class AppProjects extends LitElement {
     <div class="container">
       <h2 id="projects" class="projects title">Projects</h1>
       <p class="projects content">
-        Listf.in - Lead Architect and Engineer
+        <a href="https://listfin.herokuapp.com/" target="_blank">Listf.in</a> - Lead Architect and Engineer | <a href="https://github.com/listf-in/listf.in" target="_blank">GitHub</a>
         <br/>
         Web-based, Kanban-style, list-making application with intuitive nested navigation structure
         <br/>
@@ -31,7 +31,7 @@ export class AppProjects extends LitElement {
         ● Lead team of 10+ engineers on open source project with agile methodologies while fully remote
         <br/>
         <br/>
-        Pacific Microphone - Technical Lead and System Design pacificmicroph.one | GitHub
+        <a href="https://pacificmicroph.one/" target="_blank">Pacific Microphone</a> - Technical Lead and System Design | <a href="https://github.com/tarrinneal/Blue_Ocean_Pacific" target="_blank">GitHub</a>
         <br/>
         Custom app for actors to practice and understand sentiment of scripts
         <br/>
@@ -45,7 +45,7 @@ export class AppProjects extends LitElement {
         emotion/sentiment analysis via IBM’s Watson and WebEmpath APIs
         <br/>
         <br/>
-        HOPR - Front-End Engineer fec-hopper.herokuapp.com | GitHub
+        <a href="https://fec-hopper.herokuapp.com /" target="_blank">HOPR</a> - Front-End Engineer | <a href="https://github.com/tarrinneal/hopper" target="_blank">GitHub</a>
         <br/>
         Complete modern redesign of a client-facing retail web-portal utilizing legacy API<br/>
         ● Created custom image carousel using React and CSS3 to allow for responsive product navigation<br/>
@@ -53,7 +53,8 @@ export class AppProjects extends LitElement {
         with design document<br/>
         ● Managed data flow with Axios API calls and stateful React components to build an elegant user
         interface for purchasing products<br/><br/>
-        Lily Pad - Backend Engineer GitHub<br/>
+        Lily Pad - Backend Engineer | <a href="https://github.com/tarrinneal/hopper" target="_blank">GitHub</a>
+        <br/>
         Overhaul of outdated API and database system to increase throughput from 400 to 4000 rps<br/>
         ● Created custom ETL tool to restructure data from csv files into query first Cassandra schema<br/>
         ● Reduced latency by 50% for frequently queried data with Redis cache<br/>
