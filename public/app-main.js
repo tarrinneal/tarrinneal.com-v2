@@ -8,6 +8,7 @@ import './app-header.js';
 import './app-about-me.js';
 import './app-skills.js';
 import './app-projects.js';
+import './app-testimonials.js';
 import './app-contact.js';
 
 export class AppMain extends LitElement {
@@ -37,6 +38,7 @@ export class AppMain extends LitElement {
       <app-about-me></app-about-me>
       <app-skills></app-skills>
       <app-projects></app-projects>
+      <app-testimonials></app-testimonials>
       <app-contact></app-contact>
     `;
   }
