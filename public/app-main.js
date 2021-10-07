@@ -13,9 +13,6 @@ import './app-contact.js';
 export class AppMain extends LitElement {
   static get styles() {
     return css`
-      p {
-        color: inherit;
-      }
       .container {
         border: 1px solid black;
         padding: 10px;
