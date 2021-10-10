@@ -20,7 +20,7 @@ export class AppProjects extends LitElement {
     <div class="container">
       <h2 id="projects" class="projects title">Projects</h1>
       <p class="projects content">
-        <a href="https://listfin.herokuapp.com/" target="_blank">Listf.in</a> - Lead Architect and Engineer | <a href="https://github.com/listf-in/listf.in" target="_blank">GitHub</a>
+        <a href="https://listf.in/" target="_blank">Listf.in</a> - Lead Architect and Engineer | <a href="https://github.com/listf-in/listf.in" target="_blank">GitHub</a>
         <br/>
         Web-based, Kanban-style, list-making application with intuitive nested navigation structure
         <br/>
