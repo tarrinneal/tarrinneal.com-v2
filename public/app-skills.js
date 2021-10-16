@@ -8,7 +8,13 @@ import { containerStyles } from './container-styles.js';
 
 export class AppSkills extends LitElement {
   static get styles() {
-    return [containerStyles, css``];
+    return [
+      containerStyles,
+      css`
+        .skillsCont {
+        }
+      `,
+    ];
   }
 
   constructor() {
@@ -17,7 +23,7 @@ export class AppSkills extends LitElement {
 
   render() {
     return html`
-      <div class="container">
+      <div class="container skillsCont">
         <h2 id="skills" class="skills title">Skills</h1>
         <p class="skills content">
           Front End - JavaScript | React | Flutter | Dart | jQuery | Axios | HTML | CSS | Webpack | Babel

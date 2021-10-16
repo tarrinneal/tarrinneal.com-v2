@@ -14,9 +14,27 @@ import './app-contact.js';
 export class AppMain extends LitElement {
   static get styles() {
     return css`
-      .container {
-        border: 1px solid black;
-        padding: 10px;
+      #mainCase {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-right;
+        gap: 10px;
+        width: 100%;
+      }
+      .flexLeft {
+        width: 67vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+      }
+      .flexRight {
+        width: 33vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
       }
     `;
   }
@@ -35,11 +53,18 @@ export class AppMain extends LitElement {
   render() {
     return html`
       <app-header></app-header>
-      <app-about-me></app-about-me>
-      <app-skills></app-skills>
-      <app-projects></app-projects>
-      <app-testimonials></app-testimonials>
-      <app-contact></app-contact>
+      <div id="mainCase">
+        <div class="flexLeft">
+          <app-about-me></app-about-me>
+          <app-projects></app-projects>
+        </div>
+        <div class="flexRight">
+          <app-contact></app-contact>
+          <app-skills></app-skills>
+
+          <app-testimonials></app-testimonials>
+        </div>
+      </div>
     `;
   }
 }

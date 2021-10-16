@@ -8,7 +8,13 @@ import { containerStyles } from './container-styles.js';
 
 export class AppTestimonials extends LitElement {
   static get styles() {
-    return [containerStyles, css``];
+    return [
+      containerStyles,
+      css`
+        .testimonialsCont {
+        }
+      `,
+    ];
   }
 
   constructor() {
@@ -17,7 +23,7 @@ export class AppTestimonials extends LitElement {
 
   render() {
     return html`
-    <div class="container">
+    <div class="container testimonialsCont">
       <h2 id="testimonials" class="testimonials title">Testimonials</h1>
       <p class="testimonials content">
       <strong>

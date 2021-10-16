@@ -8,7 +8,13 @@ import { containerStyles } from './container-styles.js';
 
 export class AppAboutMe extends LitElement {
   static get styles() {
-    return [containerStyles, css``];
+    return [
+      containerStyles,
+      css`
+        .aboutMeCont {
+        }
+      `,
+    ];
   }
 
   constructor() {
@@ -17,7 +23,7 @@ export class AppAboutMe extends LitElement {
 
   render() {
     return html`
-      <div class="container">
+      <div class="container aboutMeCont">
         <h2 id="about-me" class="about-me title">About Me</h2>
         <p class="about-me main">
           I am a full-stack software engineer who passionate about what I do and

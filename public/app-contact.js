@@ -8,7 +8,13 @@ import { containerStyles } from './container-styles.js';
 
 export class AppContact extends LitElement {
   static get styles() {
-    return [containerStyles, css``];
+    return [
+      containerStyles,
+      css`
+        contactCont {
+        }
+      `,
+    ];
   }
 
   constructor() {
@@ -17,7 +23,7 @@ export class AppContact extends LitElement {
 
   render() {
     return html`
-    <div class="container">
+    <div class="container contactCont">
       <h2 id="contact" class="contact title">Contact</h1>
       <p class="contact content">
         Phone: <a href="tel:+1-360-624-2170">(360) 624-2170</a>

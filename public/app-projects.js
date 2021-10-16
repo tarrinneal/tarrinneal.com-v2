@@ -8,7 +8,13 @@ import { containerStyles } from './container-styles.js';
 
 export class AppProjects extends LitElement {
   static get styles() {
-    return [containerStyles, css``];
+    return [
+      containerStyles,
+      css`
+        projectsCont {
+        }
+      `,
+    ];
   }
 
   constructor() {
@@ -17,7 +23,7 @@ export class AppProjects extends LitElement {
 
   render() {
     return html`
-    <div class="container">
+    <div class="container projectsCont">
       <h2 id="projects" class="projects title">Projects</h1>
       <p class="projects content">
         <a href="https://listf.in/" target="_blank">Listf.in</a> - Lead Architect and Engineer | <a href="https://github.com/listf-in/listf.in" target="_blank">GitHub</a>
