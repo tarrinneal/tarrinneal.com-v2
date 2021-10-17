@@ -9,8 +9,10 @@ export class AppHeader extends LitElement {
     return css`
       .headerCont {
         border-bottom: 1px solid #e6e6e6;
-        padding: 0 20px 0 20px;
+        padding: 20px 20px 0 20px;
         margin-bottom: 10px;
+        background-color: #f1f4ff;
+        box-shadow: rgb(140 140 140) 0px 5px 10px;
       }
       .header {
         font-family: 'Roboto', sans-serif;
@@ -20,6 +22,7 @@ export class AppHeader extends LitElement {
       .name {
         display: block;
         margin-bottom: 0;
+        margin-top: 0;
       }
       .button-container {
         display: flex;
