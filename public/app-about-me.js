@@ -12,6 +12,7 @@ export class AppAboutMe extends LitElement {
       containerStyles,
       css`
         .aboutMeCont {
+          margin-left: 10px;
         }
       `,
     ];

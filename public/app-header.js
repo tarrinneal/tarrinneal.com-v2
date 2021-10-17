@@ -7,6 +7,11 @@ import {
 export class AppHeader extends LitElement {
   static get styles() {
     return css`
+      .headerCont {
+        border-bottom: 1px solid #e6e6e6;
+        padding: 0 20px 0 20px;
+        margin-bottom: 10px;
+      }
       .header {
         font-family: 'Roboto', sans-serif;
         display: inline-block;
@@ -49,19 +54,21 @@ export class AppHeader extends LitElement {
 
   render() {
     return html`
-      <h1 class="header name">Tarrin Neal</h1>
-      <h3 class="header title">Full Stack Web Developer</h3>
-      <img
-        src="assets/website-under-construction-bigalbaloo-stock.jpg"
-        alt="Under Construction"
-        width="200"
-        class="under-con"
-      />
-      <div class="header button-container">
-        <a href="#about-me"><h4 class="header about-me">About Me</h4></a>
-        <a href="#skills"><h4 class="header skills">Skills</h4></a>
-        <a href="#projects"><h4 class="header projects">Projects</h4></a>
-        <a href="#contact"><h4 class="header contact">Contact</h4></a>
+      <div class="headerCont">
+        <h1 class="header name">Tarrin Neal</h1>
+        <h3 class="header title">Full Stack Web Developer</h3>
+        <img
+          src="assets/website-under-construction-bigalbaloo-stock.jpg"
+          alt="Under Construction"
+          width="200"
+          class="under-con"
+        />
+        <div class="header button-container">
+          <a href="#about-me"><h4 class="header about-me">About Me</h4></a>
+          <a href="#skills"><h4 class="header skills">Skills</h4></a>
+          <a href="#projects"><h4 class="header projects">Projects</h4></a>
+          <a href="#contact"><h4 class="header contact">Contact</h4></a>
+        </div>
       </div>
     `;
   }

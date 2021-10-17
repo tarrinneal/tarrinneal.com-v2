@@ -11,7 +11,8 @@ export class AppProjects extends LitElement {
     return [
       containerStyles,
       css`
-        projectsCont {
+        .projectsCont {
+          margin-left: 10px;
         }
       `,
     ];

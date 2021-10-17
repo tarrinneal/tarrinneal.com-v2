@@ -12,6 +12,7 @@ export class AppTestimonials extends LitElement {
       containerStyles,
       css`
         .testimonialsCont {
+          margin-right: 10px;
         }
       `,
     ];

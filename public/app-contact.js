@@ -11,7 +11,8 @@ export class AppContact extends LitElement {
     return [
       containerStyles,
       css`
-        contactCont {
+        .contactCont {
+          margin-right: 10px;
         }
         .svg-inline--fa {
           height: 1em;
