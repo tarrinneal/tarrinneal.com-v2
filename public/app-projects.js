@@ -12,7 +12,7 @@ export class AppProjects extends LitElement {
       containerStyles,
       css`
         .projectsCont {
-          margin-left: 10px;
+          margin-left: 20px;
         }
       `,
     ];

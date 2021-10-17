@@ -12,7 +12,7 @@ export class AppAboutMe extends LitElement {
       containerStyles,
       css`
         .aboutMeCont {
-          margin-left: 10px;
+          margin-left: 20px;
         }
       `,
     ];
@@ -27,10 +27,10 @@ export class AppAboutMe extends LitElement {
       <div class="container aboutMeCont">
         <h2 id="about-me" class="about-me title">About Me</h2>
         <p class="about-me main">
-          I am a full-stack software engineer who passionate about what I do and
-          looking for work that is exciting and allows me to continue to learn.
-          I really enjoy working in a collaborative environment, and being able
-          to mentor others in the process.
+          I am a full-stack software engineer who is passionate about what I do
+          and is looking for work that is exciting and allows me to continue to
+          learn. I really enjoy working in a collaborative environment, and
+          being able to mentor others in the process.
           <br />
           <br />
           My life has been focused on technology as long as I can remember and

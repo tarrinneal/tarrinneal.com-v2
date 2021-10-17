@@ -12,7 +12,7 @@ export class AppSkills extends LitElement {
       containerStyles,
       css`
         .skillsCont {
-          margin-right: 10px;
+          margin-right: 20px;
         }
       `,
     ];

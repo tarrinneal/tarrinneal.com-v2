@@ -6,6 +6,6 @@ export const containerStyles = css`
     border-radius: 4px;
     padding: 20px;
     background-color: #f1f4ff;
-    box-shadow: rgb(140 140 140) 5px 5px 10px;
+    box-shadow: rgb(152 152 152) 2px 2px 3px;
   }
 `;

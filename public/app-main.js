@@ -9,7 +9,6 @@ import './app-about-me.js';
 import './app-skills.js';
 import './app-projects.js';
 import './app-testimonials.js';
-import './app-contact.js';
 
 export class AppMain extends LitElement {
   static get styles() {
@@ -19,7 +18,7 @@ export class AppMain extends LitElement {
         flex-direction: row;
         justify-content: center;
         align-items: flex-right;
-        gap: 10px;
+        gap: 20px;
         width: 100%;
       }
       .flexLeft {
@@ -27,14 +26,14 @@ export class AppMain extends LitElement {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 10px;
+        gap: 20px;
       }
       .flexRight {
         width: 33vw;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 10px;
+        gap: 20px;
       }
     `;
   }
@@ -59,9 +58,7 @@ export class AppMain extends LitElement {
           <app-projects></app-projects>
         </div>
         <div class="flexRight">
-          <app-contact></app-contact>
           <app-skills></app-skills>
-
           <app-testimonials></app-testimonials>
         </div>
       </div>
