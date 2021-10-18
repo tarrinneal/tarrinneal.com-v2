@@ -51,9 +51,7 @@ export class AppMain extends LitElement {
   }
 
   static get properties() {
-    return {
-      name: { type: String },
-    };
+    return {};
   }
 
   constructor() {

@@ -42,7 +42,7 @@ export class AppProjects extends LitElement {
         ● Lead team of 10+ engineers on open source project with agile methodologies while fully remote
         <br/>
         <br/>
-        <a href="https://pacificmicroph.one/" target="_blank">Pacific Microphone</a> - Technical Lead and System Design | <a href="https://github.com/tarrinneal/Blue_Ocean_Pacific" target="_blank">GitHub</a>
+        <a href="https://pacificmicroph.one/" target="_blank">PacificMicroph.one</a> - Technical Lead and System Design | <a href="https://github.com/tarrinneal/Blue_Ocean_Pacific" target="_blank">GitHub</a>
         <br/>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0S4jHKTZhTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br/>
