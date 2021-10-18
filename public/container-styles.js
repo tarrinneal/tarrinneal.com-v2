@@ -8,4 +8,10 @@ export const containerStyles = css`
     background-color: #f1f4ff;
     box-shadow: rgb(152 152 152) 2px 2px 3px;
   }
+  iframe {
+    max-width: 100%;
+  }
+  img {
+    max-width: 100%;
+  }
 `;
