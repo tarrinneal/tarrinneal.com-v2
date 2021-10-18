@@ -8,7 +8,7 @@ import { containerStyles } from './container-styles.js';
 
 export class AppContact extends LitElement {
   static get styles() {
-    return window.innerWidth < 1031
+    return window.innerWidth < 1190
       ? [
           containerStyles,
           css`

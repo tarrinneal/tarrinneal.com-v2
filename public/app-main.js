@@ -13,7 +13,7 @@ import './app-testimonials.js';
 
 export class AppMain extends LitElement {
   static get styles() {
-    return window.innerWidth < 1031
+    return window.innerWidth < 1190
       ? css`
           #mainCase {
             display: flex;
@@ -70,7 +70,7 @@ export class AppMain extends LitElement {
           <app-testimonials></app-testimonials>
         </div>
       `;
-    } else if (window.innerWidth < 1031) {
+    } else if (window.innerWidth < 1190) {
       return html`
         <app-header></app-header>
         <div id="mainCase">
