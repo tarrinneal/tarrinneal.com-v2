@@ -76,7 +76,7 @@ export class AppProjects extends LitElement {
         />
         <br/>
 
-        Overhaul of outdated API and database system to increase throughput from 400 to 4000 rps<br/>
+        Overhaul of outdated API and database system to increase throughput from 400 to 6000 rps<br/>
         ● Created custom ETL tool to restructure data from csv files into query first Cassandra schema<br/>
         ● Reduced latency by 50% for frequently queried data with Redis cache<br/>
         ● Increased throughput by 500% by horizontally scaling API using an NGINX load balancer and
