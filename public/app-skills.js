@@ -29,6 +29,7 @@ export class AppSkills extends LitElement {
               justify-content: space-around;
               flex-wrap: wrap;
               max-width: 750px;
+              margin: 10px auto;
             }
             .skillsSubTitle {
               border-bottom: 1px solid #e3.5e6e6;
@@ -58,6 +59,7 @@ export class AppSkills extends LitElement {
               justify-content: space-around;
               flex-wrap: wrap;
               max-width: 750px;
+              margin: 10px auto;
             }
             .skillsSubTitle {
               border-bottom: 1px solid #e6e6e6;
