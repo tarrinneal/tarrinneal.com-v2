@@ -60,7 +60,8 @@ export class AppProjects extends LitElement {
         emotion/sentiment analysis via IBM’s Watson and WebEmpath APIs
         <br/>
         <br/>
-        <h4><a href="https://fec-hopper.herokuapp.com/" target="_blank">HOPR</a> - Front-End Engineer</h4>
+        <h4><a href="https://fec-hopper.herokuapp.com/" target="_blank">HOPR</a></h4>
+        Front-End Engineer |
         <a href="https://github.com/tarrinneal/hopper" target="_blank">GitHub</a>
         <br/>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jBXznpJm4E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
