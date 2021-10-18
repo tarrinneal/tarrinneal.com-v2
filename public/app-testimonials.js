@@ -8,14 +8,16 @@ import { containerStyles } from './container-styles.js';
 
 export class AppTestimonials extends LitElement {
   static get styles() {
-    return [
-      containerStyles,
-      css`
-        .testimonialsCont {
-          margin-right: 20px;
-        }
-      `,
-    ];
+    return window.innerWidth < 1031
+      ? containerStyles
+      : [
+          containerStyles,
+          css`
+            .testimonialsCont {
+              margin-right: 20px;
+            }
+          `,
+        ];
   }
 
   constructor() {

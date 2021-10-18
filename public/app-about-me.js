@@ -8,14 +8,16 @@ import { containerStyles } from './container-styles.js';
 
 export class AppAboutMe extends LitElement {
   static get styles() {
-    return [
-      containerStyles,
-      css`
-        .aboutMeCont {
-          margin-left: 20px;
-        }
-      `,
-    ];
+    return window.innerWidth < 1031
+      ? containerStyles
+      : [
+          containerStyles,
+          css`
+            .aboutMeCont {
+              margin-left: 20px;
+            }
+          `,
+        ];
   }
 
   constructor() {
