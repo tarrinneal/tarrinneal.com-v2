@@ -19,9 +19,10 @@ export class AppMain extends LitElement {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: left;
+            align-items: top;
             gap: 20px;
-            margin: 0 20px;
+            margin: auto;
+            max-width: 800px;
           }
         `
       : css`
@@ -29,12 +30,13 @@ export class AppMain extends LitElement {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: flex-right;
+            align-items: top;
             gap: 20px;
             width: 100%;
           }
           .flexLeft {
             width: 60vw;
+            max-width: 1200px;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -42,6 +44,7 @@ export class AppMain extends LitElement {
           }
           .flexRight {
             width: 40vw;
+            max-width: 800px;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
