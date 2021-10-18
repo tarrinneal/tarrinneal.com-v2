@@ -9,7 +9,14 @@ import { containerStyles } from './container-styles.js';
 export class AppTestimonials extends LitElement {
   static get styles() {
     return window.innerWidth < 1190
-      ? containerStyles
+      ? [
+          containerStyles,
+          css`
+            .testimonialsCont {
+              margin-bottom: 20px;
+            }
+          `,
+        ]
       : [
           containerStyles,
           css`
