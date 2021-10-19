@@ -22,6 +22,7 @@ export class AppMain extends LitElement {
         gap: 20px;
         max-width: 100%;
       }
+
       @media only screen and (max-width: 1190px) {
         #mainCase {
           display: flex;
@@ -31,6 +32,7 @@ export class AppMain extends LitElement {
           gap: 20px;
           margin: auto;
           max-width: 800px;
+          min-width: 442px;
         }
       }
 
