@@ -32,19 +32,23 @@ export class AppAboutMe extends LitElement {
       <div class="container aboutMeCont">
         <h2 id="about-me" class="about-me title">About Me</h2>
         <p class="about-me main">
-          I am a full-stack software engineer who is passionate about what I do
-          and is looking for work that is exciting and allows me to continue to
-          learn. I really enjoy working in a collaborative environment, and
-          being able to mentor others in the process.
+          I am a full-stack software engineer who loves to learn and find new
+          ways to solve difficult problems.
           <br />
           <br />
-          My life has been focused on technology as long as I can remember and
-          have fallen in love with coding since the first line I wrote all the
-          way back in 6th grade.
+          As a professional musician and instructor, I've spent my life
+          mastering the skill of mastering skills. I also truly love to help
+          others around me learn and grow as much as possible.
           <br />
           <br />
-          My main stack is Javascript based, but I am confident I can work in
-          any environment and with any tech stack that is needed.
+          A fascination for computers and technology has always been a part of
+          my life. When I was young, computers always seemed to be the closest
+          thing to magic that could exist. All I wanted to do was play with
+          computers and see how they worked. As an adult, I've finally had the
+          resources to really learn how to make that magic myself, and it has
+          become my passion.
+          <br />
+          <br />
         </p>
       </div>
     `;

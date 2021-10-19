@@ -77,15 +77,10 @@ export class AppMain extends LitElement {
   }
 
   checkWidth() {
-    if (
-      (this.width > 1190 && window.innerWidth < 1190) ||
-      (this.width < 1190 && window.innerWidth > 1190) ||
-      (this.width < 700 && window.innerWidth > 700) ||
-      (this.width > 700 && window.innerWidth < 700)
-    ) {
+    if (this.width !== window.innerWidth) {
+      this.width = window.innerWidth;
       this.requestUpdate();
     }
-    this.width = window.innerWidth;
   }
 
   render() {
