@@ -8,64 +8,42 @@ import { containerStyles } from './container-styles.js';
 
 export class AppSkills extends LitElement {
   static get styles() {
-    return window.innerWidth < 1190
-      ? [
-          containerStyles,
-          css`
-            svg {
-              width: 3em;
-              height: 3em;
-            }
-            .skill {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              width: 5em;
-            }
-            .skillCont {
-              display: flex;
-              flex-direction: row;
-              justify-content: space-around;
-              flex-wrap: wrap;
-              max-width: 750px;
-              margin: 10px auto;
-            }
-            .skillsSubTitle {
-              border-bottom: 1px solid #e3.5e6e6;
-            }
-          `,
-        ]
-      : [
-          containerStyles,
-          css`
-            .skillsCont {
-              margin-right: 20px;
-            }
-            svg {
-              width: 3em;
-              height: 3em;
-            }
-            .skill {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              width: 5em;
-            }
-            .skillCont {
-              display: flex;
-              flex-direction: row;
-              justify-content: space-around;
-              flex-wrap: wrap;
-              max-width: 750px;
-              margin: 10px auto;
-            }
-            .skillsSubTitle {
-              border-bottom: 1px solid #e6e6e6;
-            }
-          `,
-        ];
+    return [
+      containerStyles,
+      css`
+        .skillsCont {
+          margin-right: 20px;
+        }
+        @media only screen and (max-width: 1190px) {
+          .skillsCont {
+            margin-right: auto;
+          }
+        }
+
+        svg {
+          width: 3em;
+          height: 3em;
+        }
+        .skill {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 5em;
+        }
+        .skillCont {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          max-width: 750px;
+          margin: 10px auto;
+        }
+        .skillsSubTitle {
+          border-bottom: 1px solid #e6e6e6;
+        }
+      `,
+    ];
   }
 
   constructor() {

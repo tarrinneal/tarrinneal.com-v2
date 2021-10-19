@@ -8,30 +8,16 @@ import { containerStyles } from './container-styles.js';
 
 export class AppContact extends LitElement {
   static get styles() {
-    return window.innerWidth < 1190
-      ? [
-          containerStyles,
-          css`
-            .svg-inline--fa {
-              height: 1em;
-              width: 1em;
-              color: #595959;
-            }
-          `,
-        ]
-      : [
-          containerStyles,
-          css`
-            .contactCont {
-              margin-right: 10px;
-            }
-            .svg-inline--fa {
-              height: 1em;
-              width: 1em;
-              color: #595959;
-            }
-          `,
-        ];
+    return [
+      containerStyles,
+      css`
+        .svg-inline--fa {
+          height: 1em;
+          width: 1em;
+          color: #595959;
+        }
+      `,
+    ];
   }
 
   constructor() {

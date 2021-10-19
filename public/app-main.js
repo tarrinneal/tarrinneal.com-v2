@@ -13,44 +13,44 @@ import './app-testimonials.js';
 
 export class AppMain extends LitElement {
   static get styles() {
-    return window.innerWidth < 1190
-      ? css`
-          #mainCase {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: top;
-            gap: 20px;
-            margin: auto;
-            max-width: 800px;
-          }
-        `
-      : css`
-          #mainCase {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: top;
-            gap: 20px;
-            width: 100%;
-          }
-          .flexLeft {
-            width: 60vw;
-            max-width: 1200px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            gap: 20px;
-          }
-          .flexRight {
-            width: 40vw;
-            max-width: 800px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            gap: 20px;
-          }
-        `;
+    return css`
+      #mainCase {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: top;
+        gap: 20px;
+        width: 100%;
+      }
+      @media only screen and (max-width: 1190px) {
+        #mainCase {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: top;
+          gap: 20px;
+          margin: auto;
+          max-width: 800px;
+        }
+      }
+
+      .flexLeft {
+        width: 60vw;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+      }
+      .flexRight {
+        width: 40vw;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+      }
+    `;
   }
 
   static get properties() {
@@ -59,6 +59,25 @@ export class AppMain extends LitElement {
 
   constructor() {
     super();
+    this.width = window.innerWidth;
+  }
+
+  firstUpdated() {
+    window.addEventListener('resize', () =>
+      setInterval(() => this.checkWidth(), 100)
+    );
+  }
+
+  checkWidth() {
+    if (
+      (this.width > 1190 && window.innerWidth < 1190) ||
+      (this.width < 1190 && window.innerWidth > 1190) ||
+      (this.width < 700 && window.innerWidth > 700) ||
+      (this.width > 700 && window.innerWidth < 700)
+    ) {
+      this.requestUpdate();
+    }
+    this.width = window.innerWidth;
   }
 
   render() {
@@ -98,14 +117,6 @@ export class AppMain extends LitElement {
       </div>
     `;
   }
-
-  updated() {
-    console.log('updated');
-  }
 }
 
 customElements.define('app-main', AppMain);
-
-export const styles = {
-  container: css``,
-};
