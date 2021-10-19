@@ -8,7 +8,6 @@ export class AppHeader extends LitElement {
   static get styles() {
     return css`
       .headerCont {
-        border-bottom: 1px solid #e6e6e6;
         padding: 0 20px;
         margin-bottom: 20px;
         background-color: #f1f4ff;
