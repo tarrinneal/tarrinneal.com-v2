@@ -8,26 +8,21 @@ export class AppHeader extends LitElement {
   static get styles() {
     return css`
       .headerCont {
+        display: flex;
+        justify-content: center;
         padding: 0 20px;
         margin-bottom: 20px;
         background-color: #f1f4ff;
         box-shadow: rgb(152 152 152) 0px 2px 3px;
       }
       .headerInnerCont {
-        max-width: 1900px;
+        max-width: 1720px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
       }
-      @media only screen and (max-width: 2025px) {
-        .headerCont {
-          display: flex;
-          justify-content: space-between;
-        }
-        .headerInnerCont {
-          width: 100%;
-        }
-      }
+
       .header {
         font-family: 'Roboto', sans-serif;
         display: inline-block;
@@ -46,7 +41,6 @@ export class AppHeader extends LitElement {
       }
       .title {
         min-width: 30%;
-        max-width: 50%;
       }
       .button-container {
         display: block;
@@ -59,6 +53,23 @@ export class AppHeader extends LitElement {
       .headshot {
         border-radius: 50%;
         margin: 10px 30px 10px 0;
+      }
+      @media only screen and (max-width: 1720px) {
+        .headerCont {
+          justify-content: center;
+        }
+        .headerInnerCont {
+          width: 1720px;
+        }
+      }
+      @media only screen and (max-width: 496px) {
+        .headerCont {
+          align-items: center;
+          flex-direction: column;
+        }
+        .headerWords {
+          text-align: center;
+        }
       }
     `;
   }

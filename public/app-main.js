@@ -44,7 +44,7 @@ export class AppMain extends LitElement {
 
       .flexLeft {
         width: 60vw;
-        max-width: 1200px;
+        max-width: 1000px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
