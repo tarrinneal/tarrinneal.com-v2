@@ -84,7 +84,7 @@ export class AppMain extends LitElement {
   }
 
   render() {
-    if (window.innerWidth < 700) {
+    if (window.innerWidth < 730) {
       return html`
         <app-header></app-header>
         <div id="mainCase">

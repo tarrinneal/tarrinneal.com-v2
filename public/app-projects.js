@@ -15,6 +15,10 @@ export class AppProjects extends LitElement {
           margin-left: 20px;
           margin-bottom: 20px;
         }
+        a {
+          text-decoration: none;
+          color: #195190;
+        }
         @media only screen and (max-width: 1190px) {
           .projectsCont {
             margin-left: auto;
